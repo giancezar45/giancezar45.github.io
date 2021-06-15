@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  background: #F2F2F2;
+  margin: 5;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  background: #b7a7e7;
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+
+.navbar .logo span {
+  color: black;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.section {
+  padding: 5em 2em;
+}
+
+.hero {
+  padding: 7em;
+  text-align: center;
+}
+
+.hero .left-col {
+  padding: 2em;
+  padding-top: 3em;
+  padding-right: 6em;
+  padding-left: 0;
+}
+
+.hero .left-col .subhead {
+  text-transform: uppercase;
+}
+
+.hero .left-col h1 {
+  font-size: 2.5em;
+}
+
+.about {
+  padding: 5em;
+  text-align: center;
+}
+
+.about .left-col {
+  padding-left: 2em;
+}
+
+.about .left-col .subhead {
+  text-transform: uppercase;
+}
+
+.about .right-col {
+  padding-right: 2em;
+}
+
+.about .right-col .subhead {
+  text-transform: uppercase;
+}
+
+.about .right-col li {
+  text-decoration: none;
+  text-align: left;
+}
+
+.experience {
+  padding: 3em;
+  text-align: center;
+}
+
+.experience .left-col {
+  padding-left: 0;
+  text-align: left;
+}
+
+.experience .left-col .subhead {
+  text-transform: uppercase;
+}
+
+.experience .right-col {
+  padding-right: 8em;
+}
+
+.experience .right-col .subhead {
+  text-transform: uppercase;
+}
+
+.primary-cta {
+  background: #b7a7e7;
+  color: white;
+  text-decoration: none;
+  padding: .6em 1.3em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.name {
+  padding: 5em 5em 5em 5em;
+  background: #b7a7e7;
+  position: relative;
+}
+
+.name img {
+  height: 20em;
+  width: 20em;
+  display: block;
+  right: 0;
+  width: 350px;
+  bottom: -2em;
+}
+
+.name li {
+  font-size: 1.4em;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 1em;
+}
+
+.skills {
+  background: #F2F2F2;
+}
+
+.skills ul li {
+  background: #b7a7e7;
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 5em auto;
+  border-radius: 3em;
+}
+
+.skills ul li img {
+  width: 5em;
+  height: 5em;
+  border: 5px solid;
+  border-radius: 50%;
+  margin-top: -3em;
+}
+
+.navbar .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 180px auto;
+      grid-template-columns: 180px auto;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: unset;
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar nav ul.primary-nav {
+  margin: 0;
+  padding-top: 0;
+}
+
+.navbar nav ul.secondary-nav {
+  margin: 0;
+}
+
+.navbar nav li.contact {
+  color: black;
+  border: 3px solid black;
+  font-weight: bold;
+  border-radius: 5em;
+}
+
+.navbar nav li.contact:hover {
+  background: whitesmoke;
+  color: #b7a7e7;
+}
+
+.skills ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5em;
+  padding-left: 5em;
+  padding-right: 6em;
+  padding-bottom: 5em;
+}
+
+.skills ul li {
+  margin: 0 2em;
+}
+/*# sourceMappingURL=main.css.map */
